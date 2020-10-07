@@ -1,0 +1,18 @@
+.main_menu{
+    background-color: #D52B1E;
+}
+.main_menu>ul>li>a{
+    color: white;
+}
+@media only screen  and (max-width:991px){
+    .main_menu>div:nth-of-type(1){
+        background-color: #D52B1E;
+    }
+}
+.drop_down{
+    background-color: #272727;
+    box-shadow: 0 13px 7px 0px rgb(0, 0, 0);
+}
+.drop_down>ul>li>a{
+    color: white;
+}

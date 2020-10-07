@@ -1,0 +1,147 @@
+/* body{
+	background-image: radial-gradient(rgb(48,48,49) 0%, rgb(29,30,30) 100%);
+} */
+
+*,
+::after,
+::before {
+	box-sizing: border-box;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	/* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+    text-align: left;
+    word-spacing: normal;
+    font:400 16px/1.6 Arial, Helvetica, sans-serif;
+  /*  weight size/line-Height font-family */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+ul,
+ol {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	list-style: none;
+	display: block;
+}
+li {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: list-item;
+	font-size: 14px;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	padding: 0;
+	margin: 0;
+	line-height: 1.6;
+}
+
+p,
+h4 {
+	font-size: 15px;
+}
+h1 {
+	font-size: 30px;
+}
+h2 {
+	font-size: 22.5px;
+}
+h3 {
+	font-size: 17.35px;
+}
+h5 {
+	font-size: 12.45px;
+}
+h6 {
+	font-size: 10.02px;
+}
+
+a {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	color: #212529;
+	display: inline-block;
+
+}
+a:hover {
+	text-decoration: none;
+}
+hr {
+	border-top: .8px solid #212529;
+	border-bottom: 0px;
+}
+button {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	margin: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+/* =========================image ========================= */
+img {
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	border-style: none;
+}
+/* =========================form============================ */
+input {
+	margin: 0;
+	padding: 0;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	overflow: visible;
+}
+*:focus {
+	outline: none;
+}
+input[type=button]:checked {
+	outline: none;
+}
+input[type=checkbox]:checked {
+	outline: none;
+}
+option:checked {
+	outline: none;
+}
+/* ========================table============================ */
+table, th, td {
+	border-collapse: collapse;
+	padding: 0;
+	margin: 0;
+}
+table{
+	width: 100%;
+}
+th{
+	font-size: 14px;
+	font-weight: 700;
+}
+td{
+	font-size: 14px;
+}

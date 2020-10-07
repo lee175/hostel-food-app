@@ -1,0 +1,11 @@
+.blackbeard>ul{
+    display:-ms-flexbox;display:flex;
+    -ms-flex-wrap:nowrap;flex-wrap:nowrap;
+    width: 100%;
+}
+.blackbeard>ul>li>a{
+    display:block;
+    padding: 0px 20px 0 0;
+    color: white;
+    font-size: 14px;
+}

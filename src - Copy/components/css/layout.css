@@ -1,0 +1,136 @@
+/* ====================================top menu ================================== */
+.main_menu{
+    height: 50px;
+    line-height: 50px;
+    padding: 0  50px;
+}
+
+/* ==================================food show section============================== */
+#food_category{
+    border-bottom: 2px solid black;
+    line-height: 45px;
+    /* background-color: wheat; */
+}
+#food_category>ul{
+    display:-ms-flexbox;display:flex;
+    -ms-flex-wrap:nowrap;flex-wrap:nowrap;
+    width: 100%;
+}
+#food_category>ul>li{
+    display:block;
+    position: relative;
+    padding: 0px 30px 0px 30px;
+    font-size: 16px;
+}
+#food_category>ul>li.active{
+    color: red;
+}
+.food_cat_deco{
+    position: absolute;
+    width: 100%;
+    bottom: -1px;
+    left: 0;
+    height: 1.5px;
+    background-color: red;
+}
+#food_category>ul>li:hover{
+    cursor: pointer;
+    color: #D52B1E;
+}
+.show_menu_food{
+    margin-top: 25px;
+    display:-ms-flexbox;display:flex;
+    -ms-flex-wrap:wrap;flex-wrap:wrap;
+    justify-content: space-between;
+}
+.food_card{
+    margin-bottom: 25px;
+    border-bottom: 1.5px solid #707070;
+}
+.food_card>.food_image{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: black;
+}
+.food_card>.food_image>.food_image_deco{
+    position: absolute;
+    top: 7px;
+    right: 15px;
+    width: 20px;
+    height: 20px;
+}
+.food_card>.food_info{
+    font-size: 14px;
+    line-height: 40px;
+}
+#left_bar_head{
+    line-height: 45px;
+    font-size: 16px;
+    border-bottom: 1px solid black;
+}
+
+/* ======================================canteencard================================= */
+.canteen_card{
+    position: relative;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 25px;
+    display:-ms-flexbox;display:flex;
+    -ms-flex-wrap:wrap;flex-wrap:wrap;
+    padding: 10px 0;
+    align-items: center;
+    align-content: center;
+}
+.canteen_card>div{
+    margin-right: 20px;
+}
+.canteen_card>.canteen_card_deco{
+    position: absolute;
+    background-color: #D52B1E;
+    height: 40px;
+    width: 20px;
+    top: -10px;
+    right: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    overflow: hidden;
+}
+.canteen_card>.canteen_card_deco>.canteen_card_deco_cut{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    bottom: -10;
+    left: 0px;
+    transform: rotateZ(45deg);
+}
+/* ===========================================cart boc================================ */
+.cart_items_cont{
+    background-color: royalblue;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.item_name{
+    width: 150px;
+}
+.item_price{
+    width: 50px;
+    text-align: center;
+}
+.item_qty{
+    width: 50px;
+    text-align: center;
+}
+.item_total{
+    text-align: center;
+}
+.cart_summary{
+    background-color: #F6F1F1;
+    width: 100%;
+    min-height: 100px;
+    position: absolute;
+    bottom: 0;
+}
